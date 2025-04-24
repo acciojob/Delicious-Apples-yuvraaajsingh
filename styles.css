@@ -1,1 +1,113 @@
-/* your code here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+h1{
+  color: #4c4c4c;
+  padding: 0;
+}
+
+h3{
+  color: #a6a6a6;
+}
+
+
+button{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#span_p{
+  font-size: 50px;
+}
+
+
+
+.price{
+  color: #fe3f40;
+
+}
+
+.code{
+  color: #acacac;
+  padding: 0;
+}
+
+.ul-small-apple{
+  display: flex;
+
+}
+
+.small-aple{
+  border: 1px solid #d4d4d4;
+  margin: 2px;
+  border-radius: 2px;
+  padding: 5px;
+  
+}
+
+.small-apple{
+ 
+  margin: 2px;
+  border-radius: 2px;
+  padding: 5px;
+  
+}
+
+
+.controls{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+
+
+
+.photo-main{
+  background-color: #b2e839;
+  border-radius: 5px;
+}
+
+.product{
+  display: flex;
+  justify-content: space-evenly;
+  align-self:center;
+  position: relative;
+}
+
+.green-apple{
+  position: relative;
+  right: 60px;
+  border-radius: 5px;
+}
+
+.product__photo {
+  background-color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  left:340px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.product__info{
+  background-color: #fff;
+  width: 700px;
+  height: 650px;
+  border-radius: 5px;
+  position: relative;
+  right:auto;
+}
+
+.product_d{
+  padding-left:310px;
+  padding-top: 80px;
+}
